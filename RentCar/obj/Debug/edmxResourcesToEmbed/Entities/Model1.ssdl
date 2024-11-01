@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="user92_dbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="RentCar_AgreementStatus">
+    <Key>
+      <PropertyRef Name="StatusId" />
+    </Key>
+    <Property Name="StatusId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusName" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RentCar_Car">
+    <Key>
+      <PropertyRef Name="CarId" />
+    </Key>
+    <Property Name="CarId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CarBrand" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="CarModel" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="YearOfRelease" Type="int" Nullable="false" />
+    <Property Name="Color" Type="varchar" MaxLength="7" Nullable="false" />
+    <Property Name="PhotoPath" Type="varchar(max)" />
+    <Property Name="CarClass" Type="int" Nullable="false" />
+    <Property Name="RentCost" Type="int" Nullable="false" />
+    <Property Name="TransmissionType" Type="int" Nullable="false" />
+    <Property Name="EngineSize" Type="float" Nullable="false" />
+    <Property Name="CarPower" Type="int" Nullable="false" />
+    <Property Name="Remove" Type="bit" Nullable="false" />
+    <Property Name="CarNumber" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="CarRegion" Type="int" Nullable="false" />
+    <Property Name="Photo" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="RentCar_CarClasses">
+    <Key>
+      <PropertyRef Name="CarClassId" />
+    </Key>
+    <Property Name="CarClassId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RentCar_CarColors">
+    <Key>
+      <PropertyRef Name="ColorId" />
+    </Key>
+    <Property Name="ColorId" Type="varchar" MaxLength="7" Nullable="false" />
+    <Property Name="Color" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RentCar_Client">
+    <Key>
+      <PropertyRef Name="ClientId" />
+    </Key>
+    <Property Name="ClientId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Surname" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Fathername" Type="varchar" MaxLength="100" />
+    <Property Name="Phone" Type="varchar" MaxLength="18" />
+    <Property Name="Email" Type="varchar" MaxLength="200" />
+    <Property Name="PasportSeries" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="PasportNumber" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="DateOfBirth" Type="date" Nullable="false" />
+    <Property Name="Address" Type="varchar(max)" Nullable="false" />
+    <Property Name="DriversLicenseSeries" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="DriversLicenseNumber" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="DateOfIssue" Type="date" Nullable="false" />
+    <Property Name="ExpirationDate" Type="date" Nullable="false" />
+    <Property Name="Complaints" Type="bit" />
+    <Property Name="BlackList" Type="bit" />
+  </EntityType>
+  <EntityType Name="RentCar_Employee">
+    <Key>
+      <PropertyRef Name="EmployeeId" />
+    </Key>
+    <Property Name="EmployeeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Surname" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Fathername" Type="varchar" MaxLength="100" />
+    <Property Name="Phone" Type="varchar" MaxLength="18" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Role" Type="int" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+    <Property Name="PhotoPath" Type="varchar(max)" />
+    <Property Name="Photo" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="RentCar_EmployeeRole">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RentCar_EmployeeStatus">
+    <Key>
+      <PropertyRef Name="StatusId" />
+    </Key>
+    <Property Name="StatusId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusName" Type="varchar" MaxLength="40" />
+  </EntityType>
+  <EntityType Name="RentCar_RentalAgreement">
+    <Key>
+      <PropertyRef Name="RentalAgreementId" />
+    </Key>
+    <Property Name="RentalAgreementId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClientId" Type="int" Nullable="false" />
+    <Property Name="CarId" Type="int" Nullable="false" />
+    <Property Name="EmployeeId" Type="int" Nullable="false" />
+    <Property Name="AgreementStartDate" Type="date" Nullable="false" />
+    <Property Name="AgreementFinishDate" Type="date" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RentCar_TransmissionType">
+    <Key>
+      <PropertyRef Name="TypeId" />
+    </Key>
+    <Property Name="TypeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TransmissionName" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_RentCar_Car_RentCar_CarClasses">
+    <End Role="RentCar_CarClasses" Type="Self.RentCar_CarClasses" Multiplicity="1" />
+    <End Role="RentCar_Car" Type="Self.RentCar_Car" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RentCar_CarClasses">
+        <PropertyRef Name="CarClassId" />
+      </Principal>
+      <Dependent Role="RentCar_Car">
+        <PropertyRef Name="CarClass" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentCar_Car_RentCar_CarColors">
+    <End Role="RentCar_CarColors" Type="Self.RentCar_CarColors" Multiplicity="1" />
+    <End Role="RentCar_Car" Type="Self.RentCar_Car" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RentCar_CarColors">
+        <PropertyRef Name="ColorId" />
+      </Principal>
+      <Dependent Role="RentCar_Car">
+        <PropertyRef Name="Color" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentCar_Car_RentCar_TransmissionType">
+    <End Role="RentCar_TransmissionType" Type="Self.RentCar_TransmissionType" Multiplicity="1" />
+    <End Role="RentCar_Car" Type="Self.RentCar_Car" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RentCar_TransmissionType">
+        <PropertyRef Name="TypeId" />
+      </Principal>
+      <Dependent Role="RentCar_Car">
+        <PropertyRef Name="TransmissionType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentCar_Employee_RentCar_EmployeeRole">
+    <End Role="RentCar_EmployeeRole" Type="Self.RentCar_EmployeeRole" Multiplicity="1" />
+    <End Role="RentCar_Employee" Type="Self.RentCar_Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RentCar_EmployeeRole">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="RentCar_Employee">
+        <PropertyRef Name="Role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentCar_Employee_RentCar_EmployeeStatus">
+    <End Role="RentCar_EmployeeStatus" Type="Self.RentCar_EmployeeStatus" Multiplicity="1" />
+    <End Role="RentCar_Employee" Type="Self.RentCar_Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RentCar_EmployeeStatus">
+        <PropertyRef Name="StatusId" />
+      </Principal>
+      <Dependent Role="RentCar_Employee">
+        <PropertyRef Name="Status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentCar_RentalAgreement_RentCar_AgreementStatus">
+    <End Role="RentCar_AgreementStatus" Type="Self.RentCar_AgreementStatus" Multiplicity="1" />
+    <End Role="RentCar_RentalAgreement" Type="Self.RentCar_RentalAgreement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RentCar_AgreementStatus">
+        <PropertyRef Name="StatusId" />
+      </Principal>
+      <Dependent Role="RentCar_RentalAgreement">
+        <PropertyRef Name="Status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentCar_RentalAgreement_RentCar_Car">
+    <End Role="RentCar_Car" Type="Self.RentCar_Car" Multiplicity="1" />
+    <End Role="RentCar_RentalAgreement" Type="Self.RentCar_RentalAgreement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RentCar_Car">
+        <PropertyRef Name="CarId" />
+      </Principal>
+      <Dependent Role="RentCar_RentalAgreement">
+        <PropertyRef Name="CarId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentCar_RentalAgreement_RentCar_Client">
+    <End Role="RentCar_Client" Type="Self.RentCar_Client" Multiplicity="1" />
+    <End Role="RentCar_RentalAgreement" Type="Self.RentCar_RentalAgreement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RentCar_Client">
+        <PropertyRef Name="ClientId" />
+      </Principal>
+      <Dependent Role="RentCar_RentalAgreement">
+        <PropertyRef Name="ClientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentCar_RentalAgreement_RentCar_Employee">
+    <End Role="RentCar_Employee" Type="Self.RentCar_Employee" Multiplicity="1" />
+    <End Role="RentCar_RentalAgreement" Type="Self.RentCar_RentalAgreement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RentCar_Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="RentCar_RentalAgreement">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="user92_dbModelStoreContainer">
+    <EntitySet Name="RentCar_AgreementStatus" EntityType="Self.RentCar_AgreementStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentCar_Car" EntityType="Self.RentCar_Car" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentCar_CarClasses" EntityType="Self.RentCar_CarClasses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentCar_CarColors" EntityType="Self.RentCar_CarColors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentCar_Client" EntityType="Self.RentCar_Client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentCar_Employee" EntityType="Self.RentCar_Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentCar_EmployeeRole" EntityType="Self.RentCar_EmployeeRole" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentCar_EmployeeStatus" EntityType="Self.RentCar_EmployeeStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentCar_RentalAgreement" EntityType="Self.RentCar_RentalAgreement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentCar_TransmissionType" EntityType="Self.RentCar_TransmissionType" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_RentCar_Car_RentCar_CarClasses" Association="Self.FK_RentCar_Car_RentCar_CarClasses">
+      <End Role="RentCar_CarClasses" EntitySet="RentCar_CarClasses" />
+      <End Role="RentCar_Car" EntitySet="RentCar_Car" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentCar_Car_RentCar_CarColors" Association="Self.FK_RentCar_Car_RentCar_CarColors">
+      <End Role="RentCar_CarColors" EntitySet="RentCar_CarColors" />
+      <End Role="RentCar_Car" EntitySet="RentCar_Car" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentCar_Car_RentCar_TransmissionType" Association="Self.FK_RentCar_Car_RentCar_TransmissionType">
+      <End Role="RentCar_TransmissionType" EntitySet="RentCar_TransmissionType" />
+      <End Role="RentCar_Car" EntitySet="RentCar_Car" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentCar_Employee_RentCar_EmployeeRole" Association="Self.FK_RentCar_Employee_RentCar_EmployeeRole">
+      <End Role="RentCar_EmployeeRole" EntitySet="RentCar_EmployeeRole" />
+      <End Role="RentCar_Employee" EntitySet="RentCar_Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentCar_Employee_RentCar_EmployeeStatus" Association="Self.FK_RentCar_Employee_RentCar_EmployeeStatus">
+      <End Role="RentCar_EmployeeStatus" EntitySet="RentCar_EmployeeStatus" />
+      <End Role="RentCar_Employee" EntitySet="RentCar_Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentCar_RentalAgreement_RentCar_AgreementStatus" Association="Self.FK_RentCar_RentalAgreement_RentCar_AgreementStatus">
+      <End Role="RentCar_AgreementStatus" EntitySet="RentCar_AgreementStatus" />
+      <End Role="RentCar_RentalAgreement" EntitySet="RentCar_RentalAgreement" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentCar_RentalAgreement_RentCar_Car" Association="Self.FK_RentCar_RentalAgreement_RentCar_Car">
+      <End Role="RentCar_Car" EntitySet="RentCar_Car" />
+      <End Role="RentCar_RentalAgreement" EntitySet="RentCar_RentalAgreement" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentCar_RentalAgreement_RentCar_Client" Association="Self.FK_RentCar_RentalAgreement_RentCar_Client">
+      <End Role="RentCar_Client" EntitySet="RentCar_Client" />
+      <End Role="RentCar_RentalAgreement" EntitySet="RentCar_RentalAgreement" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentCar_RentalAgreement_RentCar_Employee" Association="Self.FK_RentCar_RentalAgreement_RentCar_Employee">
+      <End Role="RentCar_Employee" EntitySet="RentCar_Employee" />
+      <End Role="RentCar_RentalAgreement" EntitySet="RentCar_RentalAgreement" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

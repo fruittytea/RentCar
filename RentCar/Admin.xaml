@@ -1,0 +1,59 @@
+﻿<Window x:Class="RentCar.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RentCar"
+        mc:Ignorable="d"
+        Title="Личный кабинет - Администратор" Height="730" Width="1200" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="Resources/Icon.png">
+    <Grid Background="#EDF2F4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="13"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="13"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="13"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="13"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Width="270" HorizontalAlignment="Left" Background="#8D99AE" Grid.RowSpan="11">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="137"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="155"/>
+                </Grid.RowDefinitions>
+                <Button Background="{x:Null}" x:Name="HomeBtn" Click="HomeBtn_Click">
+                    <Image Width="160" Source="Resources/Logo.png" Grid.Column="1" Grid.Row="0"></Image>
+                </Button>
+                <Button Grid.Row="3" Background="{x:Null}" x:Name="ExidBtn" Click="ExidBtn_Click">
+                    <Image Width="60" Source="Resources/Exid.png" Grid.Column="1"></Image>
+                </Button>
+            </Grid>
+            <Button Height="70" Style="{StaticResource RoundedButtonStyle}" Grid.Row="1" x:Name="CarsPage" Click="CarsPage_Click">
+                <TextBlock Text="Автомобили" Foreground="#EDF2F4" FontSize="24px"/>
+            </Button>
+            <Button Height="70" Style="{StaticResource RoundedButtonStyle}" Grid.Row="3" x:Name="EmployesPage" Click="EmployesPage_Click">
+                <TextBlock Text="Сотрудники" Foreground="#EDF2F4" FontSize="24px"/>
+            </Button>
+            <Button Height="70" Style="{StaticResource RoundedButtonStyle}" Grid.Row="5" x:Name="ClientsPage" Click="ClientsPage_Click">
+                <TextBlock Text="Клиенты" Foreground="#EDF2F4" FontSize="24px"/>
+            </Button>
+            <Button Height="70" Style="{StaticResource RoundedButtonStyle}" Grid.Row="7" x:Name="StatisticsPage" Click="StatisticsPage_Click">
+                <TextBlock Text="Отчеты" Foreground="#EDF2F4" FontSize="24px"/>
+            </Button>
+            <Button Height="70" Style="{StaticResource RoundedButtonStyle}" Grid.Row="9" x:Name="OrdersPage" Click="OrdersPage_Click">
+                <TextBlock Text="Заказы" Foreground="#EDF2F4" FontSize="24px"/>
+            </Button>
+        </Grid>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Column="1"/>
+    </Grid>
+</Window>

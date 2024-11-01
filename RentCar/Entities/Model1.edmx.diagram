@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9415e43a6e1a4a7eb01f948f7250dc50" Name="Diagram1">
+        <EntityTypeShape EntityType="user92_dbModel.RentCar_AgreementStatus" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user92_dbModel.RentCar_Car" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="user92_dbModel.RentCar_CarClasses" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user92_dbModel.RentCar_CarColors" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user92_dbModel.RentCar_Client" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="user92_dbModel.RentCar_Employee" Width="1.5" PointX="3" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="user92_dbModel.RentCar_EmployeeRole" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user92_dbModel.RentCar_EmployeeStatus" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user92_dbModel.RentCar_RentalAgreement" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user92_dbModel.RentCar_TransmissionType" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="user92_dbModel.FK_RentCar_RentalAgreement_RentCar_AgreementStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="user92_dbModel.FK_RentCar_Car_RentCar_CarClasses" ManuallyRouted="false" />
+        <AssociationConnector Association="user92_dbModel.FK_RentCar_Car_RentCar_CarColors" ManuallyRouted="false" />
+        <AssociationConnector Association="user92_dbModel.FK_RentCar_Car_RentCar_TransmissionType" ManuallyRouted="false" />
+        <AssociationConnector Association="user92_dbModel.FK_RentCar_RentalAgreement_RentCar_Car" ManuallyRouted="false" />
+        <AssociationConnector Association="user92_dbModel.FK_RentCar_RentalAgreement_RentCar_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="user92_dbModel.FK_RentCar_Employee_RentCar_EmployeeRole" ManuallyRouted="false" />
+        <AssociationConnector Association="user92_dbModel.FK_RentCar_Employee_RentCar_EmployeeStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="user92_dbModel.FK_RentCar_RentalAgreement_RentCar_Employee" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

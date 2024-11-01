@@ -1,0 +1,44 @@
+﻿<Window x:Class="RentCar.Employee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RentCar"
+        mc:Ignorable="d"
+        Title="Личный кабинет - Консультант" Height="730" Width="1200" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="Resources/Icon.png">
+    <Grid Background="#EDF2F4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="123"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+            <Grid Width="270" HorizontalAlignment="Left" Background="#8D99AE" Grid.RowSpan="11">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="137"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="155"/>
+                </Grid.RowDefinitions>
+                <Button Background="{x:Null}" x:Name="HomeBtn" Click="HomeBtn_Click" Grid.Row="0">
+                    <Image Width="160" Source="Resources/Logo.png" Grid.Column="1" Grid.Row="0"></Image>
+                </Button>
+                <Button Grid.Row="2" Background="{x:Null}" x:Name="ExidBtn" Click="ExidBtn_Click">
+                    <Image Width="60" Source="Resources/Exid.png" Grid.Column="1"></Image>
+                </Button>
+            </Grid>
+            <StackPanel Grid.Row="1" VerticalAlignment="Center" Margin="0 0 0 60">
+                <Button Height="70" Style="{StaticResource RoundedButtonStyle}" Grid.Row="1" x:Name="ClientsPage" Margin="0 0 0 20" Click="ClientsPage_Click">
+                    <TextBlock Text="Клиенты" Foreground="#EDF2F4" FontSize="24px"/>
+                </Button>
+                <Button Height="70" Style="{StaticResource RoundedButtonStyle}" Grid.Row="3" x:Name="OrdersPage" Click="OrdersPage_Click">
+                    <TextBlock Text="Заказы" Foreground="#EDF2F4" FontSize="24px"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Column="1"/>
+    </Grid>
+</Window>

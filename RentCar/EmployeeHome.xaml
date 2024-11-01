@@ -1,0 +1,61 @@
+﻿<Page x:Class="RentCar.EmployeeHome"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RentCar"
+      mc:Ignorable="d" 
+      d:DesignHeight="730" d:DesignWidth="900"
+      Title="Личный кабинет">
+
+    <Grid Background="#EDF2F4">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="59"/>
+            <RowDefinition Height="49"/>
+            <RowDefinition Height="93"/>
+            <RowDefinition Height="78"/>
+            <RowDefinition Height="57"/>
+            <RowDefinition Height="240"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Добрый день," Foreground="#D90429" FontSize="48px" Grid.Row="1" x:Name="DayTime"/>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock Text="Имя Фамилия Отчество" Foreground="#2B2D42" FontSize="40px" Grid.Row="2" x:Name="FIO"/>
+            <Button Background="#8D99AE" Grid.Row="2" Height="50" Width="50" Style="{StaticResource RoundedButtonCard}" Margin="20,0,0,0" x:Name="UpdBtn" Click="UpdBtn_Click">
+                <Image Source="Resources/UpdateImage.png" Width="42"/>
+            </Button>
+        </StackPanel>
+        
+        <TextBlock Text="Пожалуйста, выберите действие, которое хотите совершить" FontSize="32px" Grid.Row="4" TextWrapping="Wrap" Width="565"/>
+        <Grid Grid.Row="6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="85"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Width="240" Height="240" HorizontalAlignment="Right">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="118"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Rectangle Fill="#A8ABB0" Grid.RowSpan="3" Style="{StaticResource RoundedCards}"/>
+                <TextBlock Text="В этом месяце вы оформили" Grid.Row="0" FontSize="20px" TextWrapping="Wrap"/>
+                <TextBlock FontSize="96px" Text="30" Grid.Row="1" x:Name="IssuedMonth"/>
+                <TextBlock Text="договоров" Grid.Row="2" FontSize="20px"/>
+            </Grid>
+            <Grid Width="240" Height="240" HorizontalAlignment="Left" Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="118"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Rectangle Fill="#EFB2B9" Grid.RowSpan="3" Style="{StaticResource RoundedCards}"/>
+                <TextBlock Foreground="#D90429" Text="Сегодня истекает" Grid.Row="0" FontSize="20px"/>
+                <TextBlock FontSize="96px" Foreground="#D90429" Text="15" Grid.Row="1" x:Name="ExpireAgreement"/>
+                <TextBlock Foreground="#D90429" Text="договоров" Grid.Row="2" FontSize="20px"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

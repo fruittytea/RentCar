@@ -1,0 +1,154 @@
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\RentCar.csproj.AssemblyReference.cache
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\RentCar.csproj.SuggestedBindingRedirects.cache
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\Styles.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\MainWindow.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\App.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\RentCar_Content.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\RentCar_MarkupCompile.cache
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\RentCar_MarkupCompile.lref
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\RentCar.exe.config
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\RentCar.exe
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\RentCar.pdb
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\EntityFramework.dll
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\EntityFramework.xml
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\Admin.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\Employee.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\App.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\MainWindow.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\Admin.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\Employee.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\RentCar.g.resources
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\RentCar.Properties.Resources.resources
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\RentCar.csproj.GenerateResource.cache
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\RentCar.csproj.CoreCompileInputs.cache
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\RentCar.csproj.CopyComplete
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\RentCar.exe
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\RentCar.pdb
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\AdminHome.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\CarsPage.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\AdminHome.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\CarsPage.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\ActiveOrder.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\ClientPage.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\EmployeePage.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\ReportPage.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\ActiveOrder.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\ClientPage.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\EmployeePage.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\ReportPage.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\CarAction.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\CarAction.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\AddEmployee.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\AddEmployee.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\EPPlus.dll
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\System.Buffers.dll
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\System.Memory.dll
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\EPPlus.xml
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\System.Buffers.xml
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\System.Memory.xml
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Анна\Desktop\RentCar\RentCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\EmployeeHome.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\EmployeeHome.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\ClientOrderPage.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\ClientOrderPage.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\ClientAction.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\ClientAction.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\ActiveEmployeeOrder.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\NewRentOrder.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\ActiveEmployeeOrder.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\NewRentOrder.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\OrderCarsPage.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\OrderDeadlines.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\OrderCarsPage.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\OrderDeadlines.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\OrderIsReady.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\OrderIsReady.baml
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\EmplUpdate.g.cs
+C:\Users\Анна\Desktop\RentCar\RentCar\obj\Debug\EmplUpdate.baml
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\RentCar.exe.config
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\RentCar.exe
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\RentCar.pdb
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\EntityFramework.dll
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\EntityFramework.SqlServer.dll
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\EPPlus.dll
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\EPPlus.Interfaces.dll
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\EPPlus.System.Drawing.dll
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\System.Buffers.dll
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\System.ComponentModel.Annotations.dll
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\System.Memory.dll
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\System.Numerics.Vectors.dll
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\EntityFramework.xml
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\EntityFramework.SqlServer.xml
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\EPPlus.xml
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\System.Buffers.xml
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\System.Memory.xml
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\System.Numerics.Vectors.xml
+F:\курсовой проект прокат\RentCar\RentCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\RentCar.csproj.AssemblyReference.cache
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\RentCar.csproj.SuggestedBindingRedirects.cache
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\Styles.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\ActiveEmployeeOrder.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\ActiveOrder.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\AddEmployee.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\Admin.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\AdminHome.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\CarAction.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\CarsPage.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\ClientAction.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\ClientOrderPage.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\ClientPage.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\Employee.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\EmployeeHome.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\EmployeePage.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\EmplUpdate.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\MainWindow.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\NewRentOrder.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\OrderCarsPage.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\OrderDeadlines.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\OrderIsReady.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\ReportPage.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\App.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\RentCar_Content.g.cs
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\RentCar_MarkupCompile.cache
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\RentCar_MarkupCompile.lref
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\App.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\ActiveEmployeeOrder.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\ActiveOrder.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\AddEmployee.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\Admin.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\AdminHome.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\CarAction.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\CarsPage.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\ClientAction.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\ClientOrderPage.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\ClientPage.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\Employee.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\EmployeeHome.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\EmployeePage.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\EmplUpdate.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\MainWindow.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\NewRentOrder.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\OrderCarsPage.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\OrderDeadlines.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\OrderIsReady.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\ReportPage.baml
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\RentCar.g.resources
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\RentCar.Properties.Resources.resources
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\RentCar.csproj.GenerateResource.cache
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\RentCar.csproj.CoreCompileInputs.cache
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\RentCar.csproj.CopyComplete
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\RentCar.exe
+F:\курсовой проект прокат\RentCar\RentCar\obj\Debug\RentCar.pdb

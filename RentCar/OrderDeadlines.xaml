@@ -1,0 +1,23 @@
+﻿<Page x:Class="RentCar.OrderDeadlines"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RentCar"
+      mc:Ignorable="d" 
+      d:DesignHeight="490" d:DesignWidth="868"
+      Title="Выбор сроков" Background="#EDF2F4">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="Сроки аренды" FontSize="32px" Foreground="#D90429" Grid.Row="0" Margin="20"/>
+            <TextBlock Text="Начало периода" FontSize="24" Margin="20"/>
+            <DatePicker BorderBrush="#8D99AE" Margin="20,0,20,20" x:Name="StartDateDP" FontSize="20px"/>
+            <TextBlock Text="Окончание периода" FontSize="24" Margin="20"/>
+            <DatePicker BorderBrush="#8D99AE" Margin="20,0,20,20" x:Name="FinishDateDP" FontSize="20px"/>
+            <Button Width="300" Height="70" Margin="20" x:Name="ToFormBtn" Click="ToFormBtn_Click">
+                <TextBlock Text="Выбрать" FontSize="24" Foreground="#EDF2F4"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>
